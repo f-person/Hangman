@@ -128,7 +128,7 @@ def show_possible_matches(my_word):
         match += i + " "
     if len(match) == 0:
       return "No matches found."
-    else:
+    else: 
       return match
 
 def hangman_with_hints(secret_word):
