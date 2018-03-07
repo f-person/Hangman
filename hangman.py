@@ -20,7 +20,7 @@ def choose_word(wordlist):
 wordlist = load_words()
 
 
-def is_word_guessed(secret_word, letters_guessed):#-----------------------problemy es funckiayi paymanumna!!!!!!!!!!!!!!!
+def is_word_guessed(secret_word, letters_guessed):
     return all(i in letters_guessed for i in secret_word)
 
 def get_guessed_word(secret_word, letters_guessed):
